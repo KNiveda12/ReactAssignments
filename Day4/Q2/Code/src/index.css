@@ -1,0 +1,12 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+  color: black;
+}
+#btn {
+  background-color: black;
+  color: white;
+  padding: 1em;
+  border-radius: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
