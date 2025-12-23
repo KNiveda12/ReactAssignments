@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.page {
+  padding: 20px;
+}
+
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.todo-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.todo-card {
+  border: 1px solid #ccc;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.todo-card:hover {
+  background-color: #f3f4f6;
+}
+
+.error {
+  color: red;
+}
